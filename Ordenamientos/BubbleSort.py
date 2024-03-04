@@ -8,6 +8,9 @@ start_time = time.time()
 
 arr = []
 
+InpFile = "Ordenamientos\InputFiles\Reverso100000.txt"
+OutFile = "Ordenamientos\Stats\BubbleSortStats.txt"
+
 def bubbleSort(arr):
     n = len(arr)
     comp = 0
@@ -33,13 +36,14 @@ def bubbleSort(arr):
             comp+=1
             # if we haven't needed to make a single swap, we 
             # can just exit the main loop.
+            with open(OutFile, "a") as sFile:
+                print(InpFile, file=sFile)
+                print("Tiempo de Ejecucion\t\tComparaciones\tAsignaciones", file=sFile)
+                print("%s\t\t\t%s\t%s\n" % (time.time()-start_time,comp,asign), file=sFile)
             return
-    with open("Ordenamientos/BubbleSortStats.txt", "a") as sFile:
-        print("File: Orden5.txt", file=sFile)
-        print("Tiempo de Ejecucion\tComparaciones\tAsignaciones", file=sFile)
-        print("%s\t%s\t%s\n" % (time.time()-start_time,comp,asign), file=sFile)
+    
 
-inp = open ("Ordenamientos/InputFiles/Orden5.txt","r")
+inp = open (InpFile,"r")
 #read line into array 
 for line in inp.readlines():
     # loop over the elemets, split by whitespace

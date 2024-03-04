@@ -1,0 +1,24 @@
+Ordenamientos\InputFiles\Orden5.txt
+Tiempo de Ejecucion		Comparaciones	Asignaciones
+0.0			1	0
+
+Ordenamientos\InputFiles\Orden10.txt
+Tiempo de Ejecucion		Comparaciones	Asignaciones
+0.0009996891021728516			1	0
+
+Ordenamientos\InputFiles\Orden100.txt
+Tiempo de Ejecucion		Comparaciones	Asignaciones
+0.004998445510864258			1	0
+
+Ordenamientos\InputFiles\Orden1000.txt
+Tiempo de Ejecucion		Comparaciones	Asignaciones
+0.006928443908691406			1	0
+
+Ordenamientos\InputFiles\Orden10000.txt
+Tiempo de Ejecucion		Comparaciones	Asignaciones
+0.012085437774658203			1	0
+
+Ordenamientos\InputFiles\Orden100000.txt
+Tiempo de Ejecucion		Comparaciones	Asignaciones
+0.04160165786743164			1	0
+
