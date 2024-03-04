@@ -1,0 +1,40 @@
+Ordenamientos/InputFiles/Random5_1.txt
+Tiempo de Ejecucion		Comparaciones	Asignaciones
+0.0004260540008544922			10	10
+
+Ordenamientos/InputFiles/Random5_2.txt
+Tiempo de Ejecucion		Comparaciones	Asignaciones
+0.0007669925689697266			45	20
+
+Ordenamientos/InputFiles/Random5_3.txt
+Tiempo de Ejecucion		Comparaciones	Asignaciones
+0.0012822151184082031			105	30
+
+Ordenamientos/InputFiles/Random5_4.txt
+Tiempo de Ejecucion		Comparaciones	Asignaciones
+0.0014541149139404297			190	40
+
+Ordenamientos/InputFiles/Random5_5.txt
+Tiempo de Ejecucion		Comparaciones	Asignaciones
+0.0016052722930908203			300	50
+
+Ordenamientos/InputFiles/Random5_6.txt
+Tiempo de Ejecucion		Comparaciones	Asignaciones
+0.0017752647399902344			435	60
+
+Ordenamientos/InputFiles/Random5_7.txt
+Tiempo de Ejecucion		Comparaciones	Asignaciones
+0.0019593238830566406			595	70
+
+Ordenamientos/InputFiles/Random5_8.txt
+Tiempo de Ejecucion		Comparaciones	Asignaciones
+0.002141237258911133			780	80
+
+Ordenamientos/InputFiles/Random5_9.txt
+Tiempo de Ejecucion		Comparaciones	Asignaciones
+0.002323150634765625			990	90
+
+Ordenamientos/InputFiles/Random5_10.txt
+Tiempo de Ejecucion		Comparaciones	Asignaciones
+0.0025222301483154297			1225	100
+
