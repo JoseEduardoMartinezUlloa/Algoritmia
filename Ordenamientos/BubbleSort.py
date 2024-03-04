@@ -8,7 +8,7 @@ start_time = time.time()
 
 arr = []
 
-InpFile = "Ordenamientos\InputFiles\Reverso100000.txt"
+InpFile = "Ordenamientos\InputFiles\Random100000_10.txt"
 OutFile = "Ordenamientos\Stats\BubbleSortStats.txt"
 
 def bubbleSort(arr):
@@ -36,12 +36,11 @@ def bubbleSort(arr):
             comp+=1
             # if we haven't needed to make a single swap, we 
             # can just exit the main loop.
-            with open(OutFile, "a") as sFile:
-                print(InpFile, file=sFile)
-                print("Tiempo de Ejecucion\t\tComparaciones\tAsignaciones", file=sFile)
-                print("%s\t\t\t%s\t%s\n" % (time.time()-start_time,comp,asign), file=sFile)
-            return
-    
+            break
+    with open(OutFile, "a") as sFile:
+        print(InpFile, file=sFile)
+        print("Tiempo de Ejecucion\t\tComparaciones\tAsignaciones", file=sFile)
+        print("%s\t\t\t%s\t%s\n" % (time.time()-start_time,comp,asign), file=sFile)
 
 inp = open (InpFile,"r")
 #read line into array 
@@ -51,6 +50,7 @@ for line in inp.readlines():
         # convert to integer and append to the list
         arr.append(int(i))      
 inp.close()
+print(arr)
 bubbleSort(arr)
-
+print(arr)
 
