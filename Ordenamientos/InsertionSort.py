@@ -1,43 +1,44 @@
-# Bubble Sort Reading from InputFiles folder
-# Tracks Execution Time, Asignations and Comparisons
+#Selection Sort Reading From InputFiles Folder
+#Tracks Execution Time, Assignations and Comparisons
 
 import datetime
 import time
 
+arr=[]
+inc=[5,10,100,1000,10000,100000]
+
 start_time = time.time()
-
-arr = []
-inc = [5, 10, 100, 1000, 10000, 100000]
-
 restantes = ["Orden","Reverso"]
 InpFileR = "Ordenamientos/InputFiles/Random{incid}_{id}.txt"
 InpFileOtros = "Ordenamientos/InputFiles/{nombre}{incid}.txt"
-OutFile = "Ordenamientos/Stats/BubbleSortStats.txt"
+OutFile = "Ordenamientos/Stats/InsertionSortStats.txt"
 
-def release_list(a):
-   del a[:]
-   del a
-   
-def bubbleSort(arr, nombreArchivo):
-    n = len(arr)
-    comp = 0
-    asign = 0
-    swapped = False
-
-    for i in range(n-1):
-        for j in range(0, n-i-1):
-            if arr[j] > arr[j + 1]:
-                swapped = True
-                asign+=2
-                arr[j], arr[j + 1] = arr[j + 1], arr[j]
-            comp+=1
-        if not swapped: break
+def insertionSort(arr, nombreArchivo):
+    comp=0
+    asign=0
+    n = len(arr)  # Get the length of the array
     
+    if n <= 1: return  # If the array has 0 or 1 element, it is already sorted, so return
+ 
+    for i in range(1, n):  # Iterate over the array starting from the second element
+        key = arr[i]  # Store the current element as the key to be inserted in the right position
+        j = i-1
+        comp+=1
+        while j >= 0 and key < arr[j]: # Move elements greater than key one position ahead
+            asign+=1
+            arr[j+1] = arr[j]  # Shift elements to the right
+            j -= 1
+        asign+=1
+        arr[j+1] = key
     with open(OutFile, "a") as sFile:
         print(nombreArchivo, file=sFile)
         print("Tiempo de Ejecucion\t\tComparaciones\tAsignaciones", file=sFile)
         print("%s\t\t\t%s\t%s\n" % (time.time()-start_time,comp,asign), file=sFile)
-
+        
+def release_list(a):
+   del a[:]
+   del a
+   
 def salida(nombreArchivo):
     inp = open (nombreArchivo,"r")
     for line in inp.readlines(): #Read line into array
@@ -46,11 +47,10 @@ def salida(nombreArchivo):
     inp.close()
     print(arr)
     start_time = time.time() 
-    bubbleSort(arr, nombreArchivo)
+    insertionSort(arr, nombreArchivo)
     print(arr)
     release_list(arr)
     
-
 for c in range(0,6):
     
     for a in range(1,11):
@@ -60,7 +60,3 @@ for c in range(0,6):
     for m, n  in enumerate(restantes):
         nombreArchivo = InpFileOtros.format(nombre=n,incid=inc[c])
         salida(nombreArchivo) 
-
-
-
-

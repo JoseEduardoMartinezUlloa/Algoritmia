@@ -34,7 +34,6 @@ def selectionSort(array, nombreArchivo):
     
     with open(OutFile, "a") as sFile:
         print(nombreArchivo, file=sFile)
-        
         print("Tiempo de Ejecucion\t\tComparaciones\tAsignaciones", file=sFile)
         print("%s\t\t\t%s\t%s\n" % (time.time()-start_time,comp,asign), file=sFile)
         
@@ -59,5 +58,4 @@ for c in range(0,6):
     
     for m, n  in enumerate(restantes):
         nombreArchivo = InpFileOtros.format(nombre=n,incid=inc[c])
-        salida(nombreArchivo)
-        
+        salida(nombreArchivo) 

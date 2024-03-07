@@ -1,287 +1,288 @@
 Ordenamientos/InputFiles/Random5_1.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.00042700767517089844			10	8
+0.0005519390106201172			4	8
 
 Ordenamientos/InputFiles/Random5_2.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.0006902217864990234			10	4
+0.0008111000061035156			4	6
 
 Ordenamientos/InputFiles/Random5_3.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.0012919902801513672			10	18
+0.0010409355163574219			4	13
 
 Ordenamientos/InputFiles/Random5_4.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.0014002323150634766			10	12
+0.0016467571258544922			4	10
 
 Ordenamientos/InputFiles/Random5_5.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.0014882087707519531			10	12
+0.0017638206481933594			4	10
 
 Ordenamientos/InputFiles/Random5_6.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.0015702247619628906			10	12
+0.0018739700317382812			4	10
 
 Ordenamientos/InputFiles/Random5_7.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.0016512870788574219			10	6
+0.0020189285278320312			4	7
 
 Ordenamientos/InputFiles/Random5_8.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.0017251968383789062			10	8
+0.002126932144165039			4	8
 
 Ordenamientos/InputFiles/Random5_9.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.0018002986907958984			10	10
+0.0022170543670654297			4	9
 
 Ordenamientos/InputFiles/Random5_10.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.0018732547760009766			10	10
+0.0023009777069091797			4	9
 
 Ordenamientos/InputFiles/Orden5.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.0020422935485839844			4	0
+0.0024750232696533203			4	4
 
 Ordenamientos/InputFiles/Reverso5.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.002172231674194336			10	20
+0.0025680065155029297			4	14
 
 Ordenamientos/InputFiles/Random10_1.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.0023512840270996094			45	56
+0.002741098403930664			9	37
 
 Ordenamientos/InputFiles/Random10_2.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.0024383068084716797			45	60
+0.002846956253051758			9	39
 
 Ordenamientos/InputFiles/Random10_3.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.002536296844482422			45	54
+0.0029449462890625			9	36
 
 Ordenamientos/InputFiles/Random10_4.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.0026280879974365234			45	36
+0.003033876419067383			9	27
 
 Ordenamientos/InputFiles/Random10_5.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.0027141571044921875			45	62
+0.0031239986419677734			9	40
 
 Ordenamientos/InputFiles/Random10_6.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.0028181076049804688			45	38
+0.003216981887817383			9	28
 
 Ordenamientos/InputFiles/Random10_7.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.0029222965240478516			45	28
+0.005051851272583008			9	23
 
 Ordenamientos/InputFiles/Random10_8.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.0030112266540527344			45	64
+0.00544285774230957			9	41
 
 Ordenamientos/InputFiles/Random10_9.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.003101348876953125			45	44
+0.0055849552154541016			9	31
 
 Ordenamientos/InputFiles/Random10_10.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.003194093704223633			45	46
+0.00568389892578125			9	32
 
 Ordenamientos/InputFiles/Orden10.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.0032792091369628906			9	0
+0.005900859832763672			9	9
 
 Ordenamientos/InputFiles/Reverso10.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.003381013870239258			45	90
+0.006001949310302734			9	54
 
 Ordenamientos/InputFiles/Random100_1.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.0038242340087890625			4950	4452
+0.006248950958251953			99	2325
 
 Ordenamientos/InputFiles/Random100_2.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.004289150238037109			4950	5002
+0.007925987243652344			99	2600
 
 Ordenamientos/InputFiles/Random100_3.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.0047512054443359375			4950	4908
+0.012087106704711914			99	2553
 
 Ordenamientos/InputFiles/Random100_4.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.005216121673583984			4950	4976
+0.014383792877197266			99	2587
 
 Ordenamientos/InputFiles/Random100_5.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.0057032108306884766			4950	5236
+0.015381097793579102			99	2717
 
 Ordenamientos/InputFiles/Random100_6.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.006186246871948242			4950	5138
+0.016083955764770508			99	2668
 
 Ordenamientos/InputFiles/Random100_7.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.006667137145996094			4950	4548
+0.01658797264099121			99	2373
 
 Ordenamientos/InputFiles/Random100_8.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.007130146026611328			4950	4572
+0.01715087890625			99	2385
 
 Ordenamientos/InputFiles/Random100_9.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.0076181888580322266			4950	5480
+0.018152952194213867			99	2839
 
 Ordenamientos/InputFiles/Random100_10.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.008081197738647461			4950	4834
+0.018445730209350586			99	2516
 
 Ordenamientos/InputFiles/Orden100.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.00820612907409668			99	0
+0.0189969539642334			99	99
 
 Ordenamientos/InputFiles/Reverso100.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.00877833366394043			4950	9900
+0.019427776336669922			99	5049
 
 Ordenamientos/InputFiles/Random1000_1.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.04855513572692871			499500	497798
+0.0370790958404541			999	249898
 
 Ordenamientos/InputFiles/Random1000_2.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.08814215660095215			499500	506522
+0.05419301986694336			999	254260
 
 Ordenamientos/InputFiles/Random1000_3.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.12752509117126465			499500	501294
+0.07066082954406738			999	251646
 
 Ordenamientos/InputFiles/Random1000_4.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.16625213623046875			499500	488096
+0.08679604530334473			999	245047
 
 Ordenamientos/InputFiles/Random1000_5.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.20522713661193848			499500	494998
+0.1030418872833252			999	248498
 
 Ordenamientos/InputFiles/Random1000_6.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.24461627006530762			499500	505382
+0.11952805519104004			999	253690
 
 Ordenamientos/InputFiles/Random1000_7.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.2854321002960205			499500	498190
+0.1357109546661377			999	250094
 
 Ordenamientos/InputFiles/Random1000_8.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.324188232421875			499500	486174
+0.15154314041137695			999	244086
 
 Ordenamientos/InputFiles/Random1000_9.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.3633742332458496			499500	490646
+0.16741299629211426			999	246322
 
 Ordenamientos/InputFiles/Random1000_10.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.4029111862182617			499500	514286
+0.18403410911560059			999	258142
 
 Ordenamientos/InputFiles/Orden1000.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.40370726585388184			999	0
+0.1848278045654297			999	999
 
 Ordenamientos/InputFiles/Reverso1000.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-0.45287442207336426			499500	999000
+0.21486496925354004			999	500499
 
 Ordenamientos/InputFiles/Random10000_1.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-4.684108018875122			49995000	49688630
+1.8459458351135254			9999	24854314
 
 Ordenamientos/InputFiles/Random10000_2.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-8.877987146377563			49995000	49178686
+3.4835667610168457			9999	24599342
 
 Ordenamientos/InputFiles/Random10000_3.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-13.080197095870972			49995000	49760156
+5.153339862823486			9999	24890077
 
 Ordenamientos/InputFiles/Random10000_4.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-17.34839129447937			49995000	50764344
+6.854408025741577			9999	25392171
 
 Ordenamientos/InputFiles/Random10000_5.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-21.603735208511353			49995000	49189548
+8.505253791809082			9999	24604773
 
 Ordenamientos/InputFiles/Random10000_6.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-25.895809173583984			49995000	49913054
+10.165747880935669			9999	24966526
 
 Ordenamientos/InputFiles/Random10000_7.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-30.123615264892578			49995000	50131598
+11.842060089111328			9999	25075798
 
 Ordenamientos/InputFiles/Random10000_8.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-34.33951425552368			49995000	50094890
+13.504001140594482			9999	25057444
 
 Ordenamientos/InputFiles/Random10000_9.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-38.63008117675781			49995000	49966026
+15.151991844177246			9999	24993012
 
 Ordenamientos/InputFiles/Random10000_10.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-42.95451903343201			49995000	50132294
+16.838223934173584			9999	25076146
 
 Ordenamientos/InputFiles/Orden10000.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-42.96579933166504			9999	0
+16.84933304786682			9999	9999
 
 Ordenamientos/InputFiles/Reverso10000.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-48.6859872341156			49995000	99990000
+20.139838933944702			9999	50004999
 
 Ordenamientos/InputFiles/Random100000_1.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-538.08571434021			4999950000	5000755934
+190.49500703811646			99999	2500477966
 
 Ordenamientos/InputFiles/Random100000_2.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-1807.3981029987335			4999950000	4991012424
+367.6241228580475			99999	2495606211
 
 Ordenamientos/InputFiles/Random100000_3.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-2255.5225751399994			4999950000	4991699620
+548.3641219139099			99999	2495949809
 
 Ordenamientos/InputFiles/Random100000_4.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-2711.212699174881			4999950000	5000116728
+727.6802558898926			99999	2500158363
 
 Ordenamientos/InputFiles/Random100000_5.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-3835.825175046921			4999950000	4998717514
+905.7978377342224			99999	2499458756
 
 Ordenamientos/InputFiles/Random100000_6.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-4289.728493213654			4999950000	4989217104
+1088.4382619857788			99999	2494708551
 
 Ordenamientos/InputFiles/Random100000_7.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-4742.758321285248			4999950000	5010136960
+1269.0760760307312			99999	2505168479
 
 Ordenamientos/InputFiles/Random100000_8.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-5201.738498210907			4999950000	4996458032
+1450.5114350318909			99999	2498329015
 
 Ordenamientos/InputFiles/Random100000_9.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-5660.075850248337			4999950000	4987539906
+1626.5666518211365			99999	2493869952
 
 Ordenamientos/InputFiles/Random100000_10.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-6135.293935060501			4999950000	5019356818
+1800.8754630088806			99999	2509778408
 
 Ordenamientos/InputFiles/Orden100000.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-6135.511609077454			99999	0
+1801.1705029010773			99999	99999
 
 Ordenamientos/InputFiles/Reverso100000.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
-6734.070118188858			4999950000	9999900000
+2140.3744688034058			99999	5000049999
+
