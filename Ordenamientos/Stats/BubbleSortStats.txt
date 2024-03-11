@@ -285,3 +285,4 @@ Tiempo de Ejecucion		Comparaciones	Asignaciones
 Ordenamientos/InputFiles/Reverso100000.txt
 Tiempo de Ejecucion		Comparaciones	Asignaciones
 6734.070118188858			4999950000	9999900000
+
