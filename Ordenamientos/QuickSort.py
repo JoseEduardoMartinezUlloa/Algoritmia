@@ -9,8 +9,8 @@ start_time = time.time()
 arr = []
 inc = [5, 10, 100, 1000, 10000, 100000]
 
-comp=0
-asign=0
+comp = 0
+asign = 0
 
 restantes = ["Orden","Reverso"]
 InpFileR = "Ordenamientos/InputFiles/Random{incid}_{id}.txt"
@@ -22,11 +22,8 @@ def release_list(a):
    del a
    
 def partition(array, low, high):
-    global comp
-    global asign
     pivot = array[high]
     i = low - 1
- 
     for j in range(low, high):
         comp+=1
         if array[j] <= pivot:
@@ -35,14 +32,14 @@ def partition(array, low, high):
             (array[i], array[j]) = (array[j], array[i])
     asign+=2
     (array[i + 1], array[high]) = (array[high], array[i + 1])
- 
     return i + 1
 
 def quickSort(array, low, high, nombreArchivo):
     if low < high:
         pi = partition(array, low, high)
         quickSort(array, low, pi - 1, nombreArchivo)
-        quickSort(array, pi + 1, high, nombreArchivo)
+        quickSort(array, pi + 1, high, nombreArchivo) 
+               
 
 def salida(nombreArchivo):
     inp = open (nombreArchivo,"r")
@@ -54,9 +51,9 @@ def salida(nombreArchivo):
     print(arr)
     quickSort(arr, 0, len(arr)-1, nombreArchivo)
     with open(OutFile, "a") as sFile:
-        print(nombreArchivo, file=sFile)
-        print("Tiempo de Ejecucion\t\tComparaciones\tAsignaciones", file=sFile)
-        print("%s\t\t\t%s\t%s\n" % (time.time()-start_time,comp,asign), file=sFile) 
+            print(nombreArchivo, file=sFile)
+            print("Tiempo de Ejecucion\t\tComparaciones\tAsignaciones", file=sFile)
+            print("%s\t\t\t%s\t%s\n" % (time.time()-start_time,comp,asign), file=sFile)
     print(arr)
     
 for c in range(0,6):
